@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kenil Shah — Portfolio showcasing extracurricular activities, leadership, certifications, and community impact in Calgary." />
+  <title>Kenil Shah | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--1"></div>
+    <div class="ambient__orb ambient__orb--2"></div>
+    <div class="ambient__orb ambient__orb--3"></div>
+    <div class="ambient__grid"></div>
+  </div>
+
+  <header class="header" id="top">
+    <nav class="nav">
+      <a class="nav__logo" href="#top">Kenil Shah</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#extracurriculars">Extracurriculars</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Kenil Shah · Calgary, Alberta</p>
+        <h1 class="hero__title">
+          Building community through
+          <span class="hero__title-accent">leadership & impact</span>
+        </h1>
+        <p class="hero__subtitle">
+          A portfolio of extracurricular activities spanning research, athletics,
+          aquatics, tutoring, advocacy, and nonprofit fundraising.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#extracurriculars">View Extracurriculars</a>
+          <a class="btn btn--ghost" href="https://github.com/Shaidynn" target="_blank" rel="noopener noreferrer">GitHub Projects</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__photo-wrap">
+          <img
+            class="hero__photo"
+            src="profile.jpg"
+            alt="Kenil Shah standing on a pier"
+            width="400"
+            height="500"
+            loading="eager"
+          />
+          <div class="hero__photo-glow" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__value">10+</span>
+          <span class="stat__label">Active Roles</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">5</span>
+          <span class="stat__label">Certifications</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">4th Place</span>
+          <span class="stat__label">Youreka in Calgary</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-header">
+        <span class="section-tag">About</span>
+        <h2>Driven by Service, Passion, and Purpose</h2>
+      </div>
+      <p class="about__text">
+        Through mentoring Model UN delegates, coaching basketball or lifeguarding at the YMCA,
+        tutoring children in coding and math at the Calgary Public Library,
+        conducting drug research through the Youreka Program, recruiting blood donors by working alongside Canadian Blood Services,
+        or leading nonprofit fundraising for the homeless community — I get the opportunity to give back to my community and ensure inclusivity across all
+        boards throughout the city of Calgary. Each experience allows me to grow as a group-member, leader, teacher, researcher, programmer, and as an individual in general.
+        Altogether, these experiences have allowed me to both: develop an adequate work ethic, and continously learn—even outsside of school—to ensure I keep growing and improving at
+        the things I am passionate about.
+      </p>
+    </section>
+
+    <section class="ec" id="extracurriculars">
+      <div class="section-header">
+        <span class="section-tag">Extracurriculars</span>
+        <h2>Leadership & community involvement</h2>
+      </div>
+
+      <div class="ec-grid">
+
+        <article class="ec-card ec-card--featured" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Non-Profit</span>
+            <h3>Fundraiser Founder for a Non-Profit Organization</h3>
+          </div>
+          <div class="ec-card__body">
+            <p>Led a fundraiser and helped raise 75% of the target goal to ensure more individuals received proper shelter regardless of their financial situations.</p>
+            <p>Engaged in providing aid to the homeless community throughout the city of Calgary by setting up a GoFundMe page and partnering with the Calgary Drop-In Centre Non-Profit Organization.</p>
+            <p>Took on the initiative and responsibility to unite my local community to help fight against disparities in Calgary by encouraging individuals to donate in-person and via advertisements.</p>
+          </div>
+        </article>
+
+        <article class="ec-card" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Education</span>
+            <h3>Coding and Math Tutor (volunteering)</h3>
+            <p class="ec-card__org">Calgary Public Library</p>
+            <p class="ec-card__date">October 2022 - January 2025</p>
+          </div>
+          <ul class="ec-card__list">
+            <li>Taught the youth aged 5-13 how to code by guiding them through lessons and computer skills, allowing them to make websites and games.</li>
+            <li>Offered the youth interactive activities that prompted them to apply their critical-thinking skills.</li>
+            <li>Guided the youth through challenging math problems to hone their problem-solving skills and introduce them to complex mathematical ideas early on, which resulted in academic success and confidence.</li>
+            <li>Remained encouraging and fostered an engaging environment that produced valuable learning opportunities.</li>
+          </ul>
+        </article>
+
+        <article class="ec-card" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Athletics</span>
+            <h3>Basketball Coach (volunteering)</h3>
+            <p class="ec-card__org">YMCA</p>
+            <p class="ec-card__date">December 2023 - Now</p>
+          </div>
+          <ul class="ec-card__list">
+            <li>Developed communication, leadership, recognition, teamwork, accountability, and resilience skills.</li>
+            <li>Cultivated professional relationships with Shawnessy YMCA staff members.</li>
+            <li>Provided basketball skills training to children aged 8–15 with my 10 years of playing experience.</li>
+            <li>Fostered positive relationships with colleagues and young athletes.</li>
+            <li>Contributed to a fun, competitive, and growth-oriented environment for young athletes.</li>
+          </ul>
+        </article>
+
+        <article class="ec-card" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Employment</span>
+            <h3>Assistant Lifeguard (Job)</h3>
+            <p class="ec-card__org">YMCA</p>
+            <p class="ec-card__date">December 2024 – September 2025</p>
+          </div>
+          <ul class="ec-card__list">
+            <li>Gained hands-on experience working in the Aquatics Department and enhanced communication skills.</li>
+            <li>Monitored pools, slides, hot tubs, dive boards, changerooms, and steam rooms; enforced strict rules.</li>
+            <li>Educated insubordinate patrons through collective teamwork to ensure situations did not escalate, making the faculty more inclusive toward everybody through a nurtured positive environment.</li>
+          </ul>
+        </article>
+
+        <article class="ec-card" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Leadership</span>
+            <h3>Model United Nations (Model UN) Executive (Leader)</h3>
+            <p class="ec-card__org">Dr. E.P. Scarlett High School</p>
+            <p class="ec-card__date">September 2024 - Now</p>
+          </div>
+          <ul class="ec-card__list">
+            <li>Mentored junior delegates by manifesting an engaging environment through leadership and role modeling.</li>
+            <li>Represented my school at several MUN conferences around the city by fostering an inclusive work environment.</li>
+            <li>Encouraged school-wide participation in local MUN conferences by managing registration and delegate roles.</li>
+            <li>Led weekly workshops with diverse practice materials to support students with different learning style</li>
+          </ul>
+        </article>
+
+        <article class="ec-card ec-card--compact" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Research</span>
+            <h3>Youreka Researcher (High School Investigator) Program</h3>
+            <p class="ec-card__org">UCalgary Medical Health Sciences Centre</p>
+            <p class="ec-card__date">January 2026 - April 2026</p>
+          </div>
+          <p class="ec-card__summary"> Conducted research to test whether nicotine, via cigarettes, resulted in worster hearing across different age groups. As a group, we created various diagrams to manage data and statistics with the use of R studio and we presented manuscript/findings to University of Calgary Professors, medical school students, as well as engineering students, after researching on this topic for four months.</p>
+        </article>
+
+        <article class="ec-card ec-card--compact" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Advocacy</span>
+            <h3>Canadian Blood Services (Youth Ambassador)</h3>
+            <p class="ec-card__date">August 2025 - Now</p>
+          </div>
+          <p class="ec-card__summary">Recruited blood donors to drive blood accessibility across Canada by working alongside other university students to help raise awareness at local events. Assisted nurses at mobile clinics by organizing and supporting the patients during the blood donation process.</p>
+        </article>
+
+        <article class="ec-card" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Employment</span>
+            <h3>Code Ninjas Sensei</h3>
+            <p class="ec-card__org">Code Ninjas</p>
+            <p class="ec-card__date">April 2026 - Now</p>
+          </div>
+          <p class="ec-card__summary">Guided children through coding while following the code ninjas curriculum—via MCreator, C#, Block-Coding, Roblox Studio (Luau), and more—teaching them to build games, mods, and digital projects while developing foundational programming logic, creativity, and problem-solving skills in an engaging environment.</p>
+        </article>
+
+        <article class="ec-card ec-card--compact ec-card--github" data-animate>
+          <div class="ec-card__header">
+            <span class="ec-card__tag">Development</span>
+            <h3>Github Coding Projects</h3>
+          </div>
+          <p class="ec-card__summary">Created github projects in the spare time I had left (typically over summer), to express my passion for programming by testing the bounds of my knowledge, identifying gaps, and learning to fill those gaps.</p>
+          <a class="ec-card__link" href="https://github.com/Shaidynn" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="certs" id="certifications">
+      <div class="section-header">
+        <span class="section-tag">Certifications</span>
+        <h2>Professional credentials & training</h2>
+      </div>
+
+      <div class="certs-grid">
+        <article class="cert-card" data-animate>
+          <span class="cert-card__icon" aria-hidden="true">🛟</span>
+          <h3>Bronze Cross</h3>
+          <p>Advanced aquatic lifesaving certification issued by the Lifesaving Society, where I am qualified to perform rescues in aquatic environments, while ensuring the safety of patrons by performign continous scans.</p>
+        </article>
+
+        <article class="cert-card" data-animate>
+          <span class="cert-card__icon" aria-hidden="true">➕</span>
+          <h3>Standard First Aid and CPR-C</h3>
+          <p>This certfication allows me to assess various medical conditions and properly take action. Learnt signs of stroke, seizures, heart attacks, bruises, deadly bleeding, and choking. This certification was issued through the Red Cross.</p>
+        </article>
+
+        <article class="cert-card" data-animate>
+          <span class="cert-card__icon" aria-hidden="true">🐍</span>
+          <h3>Udemy Complete Python Bootcamp</h3>
+          <p>Go from zero to hero in Python 3 verified certification. This bootcamp allowed me to grasp advanced Python concepts such as error/exception handling, modules & packages, Object Oriented Programming (OOP), Web Scraping, File Handling, and Automation via APIs. A final capstone project was also made to combine these concepts.</p>
+        </article>
+
+        <article class="cert-card" data-animate>
+          <span class="cert-card__icon" aria-hidden="true">🧠</span>
+          <h3>Concussion Treatment for Students (CTS)</h3>
+          <p>Certification issued by the National Federation of State High School Association, enabling me to treat and diagnose concussions.</p>
+        </article>
+
+        <article class="cert-card" data-animate>
+          <span class="cert-card__icon" aria-hidden="true">🛡️</span>
+          <h3>Child Safety & Protection Training (PROTADV1)</h3>
+          <p>Provided a comprehensive overview of child safety and protection for staff and volunteers, including modules on defining child abuse, disclosure, reporting, and keeping children safe.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <span class="section-tag">Contact</span>
+        <h2>Let's connect</h2>
+        <p>If you have any questions or would like to reach out, feel free to email me!</p>
+        <a class="btn btn--primary" href="mailto:kenildish@gmail.com">Get in Touch</a>
+        <p class="contact__email">
+          <a href="mailto:keniladish@gmail.com">keniladish@gmail.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
